@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(253, 91, 148);
+    transition: all 0.5s ease;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+main{
+    height: 100vh;
+    width: auto;
+    font-family: 'Poppins', sans-serif;
+}
+
+header p{
+    position: absolute;
+    font-size: 4rem;
+}
+
+.cover{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    /* background: rgba(224, 5, 5, 0.906); */
+    font-weight: 900rem;
+    font-weight: 900;
+}
+
+.cover img{
+    width: 40rem;
+    margin-top: 10rem;
+    /* box-shadow: 5px 5px 5px rgb(77, 77, 77), -5px -5px 5px rgb(87, 87, 87); */
+}
+
+.cover .issue{
+    font-size: 1.8rem;
+    padding: 2rem 0;
+}
+
+.cover .buy-links{
+    font-size: 1.4rem;
+    line-height: 2rem;
+}
+
+.cover .store-link{
+    font-size: 1.3rem;
+    padding: 2rem 0;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: last baseline;
+    padding: 5rem 1rem 1rem 1rem;
+}
+
+footer{
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+footer .left{
+    width: 30rem;
+    line-height: 2rem;
+   
+}
+
+.left .copyright{
+    font-size: 1rem;
+    font-weight: normal;
+    margin-bottom: 2rem;
+}
+
